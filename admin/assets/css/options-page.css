@@ -1,0 +1,27 @@
+input[type=text],
+input[type=url] {
+    border: 1px solid #ced4da;
+}
+input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime-local]:focus, input[type=datetime]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus, input[type=radio]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, select:focus, textarea:focus {
+    border-color: #8bbafe; 
+    box-shadow: 0 0 0 0.2rem rgba(13,110,253,.25);
+}
+input[type=checkbox]:checked::before {
+    content:  none;
+}
+label:not(.form-check-label) {
+    font-weight: bold;
+}
+input[type=radio]:checked::before {
+    background-color: #fff;
+}
+#status {
+    position:  absolute;
+    top:  -8px;
+    left:  0;
+    border-radius: .3rem .3rem 0 0;
+    width:  100%;
+    padding: 2px 8px;
+    font-size: 12px;
+    border: none;
+}

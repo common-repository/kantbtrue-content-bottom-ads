@@ -1,0 +1,26 @@
+{
+    "name": "kantbtrue-content-bottom-ads",
+    "version": "1.1",
+    "description": "An elegant ad below content area.",
+    "keywords": [
+        "WordPress",
+        "banner ads"
+    ],
+    "homepage": "",
+    "license": "GPLv2 or later",
+    "author": "Kantbtrue ( https://twitter.com/kanbtrue )",
+    "contributors": [
+        "Kantbtrue (https://twitter.com/kantbtrue)"
+    ],
+    "scripts": {
+        "start": "grunt",
+        "build": "grunt build"
+    },
+    "browserslist": [
+        "last 4 versions"
+    ],
+    "devDependencies": {
+        "grunt": "^1.1.0",
+        "grunt-wp-i18n": "^1.0.3"
+    }
+}

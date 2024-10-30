@@ -1,0 +1,119 @@
+.kbtcba-footer-ad {
+    position: relative;
+    display:  flex;
+    flex-direction:  row;
+    flex-wrap:  nowrap;
+    margin:  3.5rem 0;
+    border-width: 0;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.15);
+}
+.kbtcba-footer-ad a,
+.kbtcba-footer-ad img {
+    background: none!important;
+    border: none!important;
+    box-shadow: none!important;
+}
+.kbtcba-footer-ad a {
+    text-decoration: underline;
+}
+.kbtcba-header {
+    display:  flex;
+    flex-flow: row nowrap;
+    justify-content:  center;
+    align-items:  center;
+    padding: 1.5rem;
+}
+.kbtcba-header img {
+    width: 100%;
+    height: auto;
+}
+.kbtcba-message {
+    padding: 1.5rem;
+    font-size: 1rem;
+}
+.kbtcba-message h4 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight:  600;
+}
+.kbtcba-message h4 a {
+    color: #000;
+    text-decoration: none;
+}
+.kbtcba-message p {
+    margin: 1rem 0 0;
+}
+.kbtcba-sponsored {
+    position:  absolute;
+    bottom: .5rem;
+    right: .5rem;
+    font-size: .75rem;
+    color: #999;
+}
+/* Size */
+.kbtcba-footer-ad--sm {
+    max-width:  767px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kbtcba-footer-ad--sm .kbtcba-header {
+    flex: 0 0 40%;
+}
+.kbtcba-footer-ad--sm .kbtcba-message {
+    font-size: .8rem;
+}
+.kbtcba-footer-ad--sm .kbtcba-message h4 {
+    font-size: 1.25rem;
+}
+.kbtcba-footer-ad--lg .kbtcba-message {
+    font-size: 1.15rem;
+}
+.kbtcba-footer-ad--lg .kbtcba-message h4 {
+    font-size: 1.75rem;
+}
+/* Dark Mode */
+.kbtcba-footer-ad--dark {
+    background-color: #333;
+    border: 1px solid #000;
+}
+.kbtcba-footer-ad--dark,
+.kbtcba-footer-ad--dark h4,
+.kbtcba-footer-ad--dark a,
+.kbtcba-footer-ad--dark h4 a {
+    color: #fff;
+}
+.kbtcba-footer-ad--dark a:hover,
+.kbtcba-footer-ad--dark a:focus {
+    color: #fff!important;
+}
+.kbtcba-footer-ad--dark .kbtcba-sponsored {
+    color: #dfdfdf;
+}
+/* Media Query */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .kbtcba-footer-ad--lg .kbtcba-message h4 {
+        font-size: 1.15rem;
+        line-height: 1.5;
+    }
+    .kbtcba-footer-ad--lg .kbtcba-message {
+        font-size: 1rem;
+    }    
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .kbtcba-footer-ad--sm .kbtcba-header {
+        flex: 0 0 50%;
+    }
+    .kbtcba-footer-ad--sm .kbtcba-message h4 {
+        font-size: 1rem;
+        line-height: 1.45;
+    }
+}
+@media screen and (max-width: 767.98px) {
+    .kbtcba-footer-ad .kbtcba-header {
+        flex: 0 0 100%;
+    }
+    .kbtcba-footer-ad {
+        flex-flow: column nowrap;
+    }
+}
